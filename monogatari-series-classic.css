@@ -1,0 +1,755 @@
+/*
+LAYOUT DESIGN MADE BY SYLAKENTH
+I ABSTAINED FROM IMPORTING LINKS FROM DROPBOX SINCE THE CRASH
+SO MOSTLY ADDED EVERYTHING TO THIS CODE
+
+MONOGATARI THEME EDIT BY EXCALIBUR_1702
+*/
+
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
+@\import "https://fonts.googleapis.com/css?family=Viga";
+
+* {
+	text-decoration: none;
+}
+
+body {
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url(https://imgur.com/7rROfdr.jpg);
+	background-position: right bottom;
+	background-repeat: space;
+	background-size: cover;
+	font-family: Kozuka Mincho Pro !important;
+}
+
+a {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+a :hover {
+	color: red !important;
+	font-weight: 700;
+	transition: all 0.4s ease 0s;
+}
+body {
+	background-color: rgba(0, 0, 0, 0);
+	color: #bbbbbb;
+}
+
+#list_surround {
+	font-size: 15px;
+	height: 200px;
+	left: 210px;
+	line-height: 1;
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	position: absolute;
+	top: 0;
+	width: 670px;
+}
+.table_header {
+	padding-bottom: 4px;
+}
+
+.table_header span {
+	display: none;
+}
+
+.table_header:nth-child(2) {
+	text-align: left;
+	padding-left: 10px;
+}
+
+[cellspacing="0"] {
+    line-height: 17px;
+}
+
+.td1, .td2 {
+   	background-color: rgba(255, 255, 255, 0);
+	text-align: center;
+	vertical-align: top;
+  	border-bottom:1px dashed #eaa900;
+	padding: 5px 0;
+	transition: background-color 0.3s linear 0s;
+}
+
+.animetitle + small {
+	color: #eea900 !important;
+	visibility: visible !important;
+	padding:2px;
+	background: none repeat scroll 0% 0% rgba(119, 0, 0, 1);
+	border-radius:5px;
+	box-shadow: inset 0 0 3px  white;
+	text-shadow: 0px 0px 3px black;
+}
+
+#list_surround small {
+	visibility: hidden;
+}
+
+#list_surround small a:last-of-type {
+	display: none !important;
+}
+
+td[class^="td"]:nth-child(2) {
+	text-align: left;
+	padding-left: 10px;
+	text-shadow: 0px 0px 3px #ffffff;
+}
+
+#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+	margin-right: 10px;
+	visibility: visible !important;
+}
+
+tr:hover td[class^="td"] {
+	background-color: #eea900;
+}
+
+tr:hover td.td1, tr:hover td.td2 {
+	color: #FFFFFF;
+	text-shadow: 0 0 3px #FFFFFF;
+}
+
+.table_headerLink {
+	color: #FFFFFF ;
+	line-height: 20px;
+}
+
+td[class^="td"]:nth-child(3), td[class^="td"]:nth-child(3) a {
+	color: #ffffff ;
+	text-shadow: 0px 0px 3px #FFFFFF;
+}
+
+td[class^="td"]:nth-child(4), td[class^="td"]:nth-child(4) a {
+	color: #ffffff ;
+	text-shadow: 0px 0px 3px #FFFFFF;
+}
+
+td[class^="td"]:first-child {
+	color: #ffffff;
+	font-weight: 700;
+	text-shadow : 0px 0px 3px #ffffff;
+	border-left: 0px solid #eea900 !important;
+}
+
+td[class^="td"]:last-child {
+	border-right: 0px solid #eea900 !important;
+	font-weight: 700;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+.table_header {
+	background-color: #770000;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 0px 0 0;
+	letter-spacing: 1px;
+	padding:2px;
+	border-bottom: 3px solid #eea900;
+}
+
+.table_header:first-child {
+	border-left: 0px solid #FFFFFF !important;
+	border-radius: 16px 0 0 0;
+	border-right: 0px;
+	border-bottom: 3px solid #eea900 !important;
+	border-top: 0px solid #FFFFFF !important;
+}
+
+.table_header:nth-child(4) {
+	border-radius: 0 16px 0 0;
+	border-right: 0px solid #FFFFFF !important;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+.table_header:nth-child(4) :hover{
+	color: #ff0000;
+	transition: all 0.4s ease 0s;
+}
+
+.table_header:nth-child(3) :hover{
+	color: #ff0000;
+	transition: all 0.4s ease 0s;
+}
+
+
+/*
+EDIT BUTTON
+*/
+
+
+#list_surround table:nth-of-type(n+4) tbody div small {
+	letter-spacing: -25px;
+	visibility: visible;
+	color: transparent !important;
+}
+
+#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+	display: inline-block !important;
+	opacity: 0;
+}
+
+#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
+	display: none !important;
+}
+
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none
+	color: white ;
+	display: inline-block !important;
+	position: relative !important;
+	text-align: left;
+	visibility: visible;
+	opacity: 1 !important;
+	transition: all 0.8s ease 0s;
+	letter-spacing: 1px;
+	float: right;
+	padding-left: 5px;
+}
+
+.td1 div, .td2 div {
+	color: transparent !important;
+	padding-left: 4px;
+}
+
+.td1 div:hover small a, .td2 div:hover small a {
+	color: red;
+	transition: all 0.4s ease 0s;
+}
+
+/*
+CATEGORY TOTALS
+*/
+
+.category_totals {
+	background-color: #770000;
+	border-top: 2px solid #eaa900;
+	border-radius: 0 0 16px 16px;
+	color: #FFFFFF;
+	padding: 3px 3px 9px;
+	text-align: center;
+}
+
+#grand_totals {
+	background-color: #770000;
+	border-color: #eaa900;
+	border-radius: 12px 12px 0px 0px;
+	border-style: solid;
+	border-width: 0px;
+	color: #FFFFFF;
+	display: block;
+	margin-top: 35px;
+	padding: 0 10px 10px;
+	position: absolute;
+	text-align: center;
+	width: calc(100% - 24px);
+	padding-top:10px;
+}
+
+td[class^="td"]:nth-of-type(2) {
+    width: 454px !important;
+}
+
+
+/*
+COVER NECESSITIES
+*/
+
+
+.table_header:nth-of-type(6), span[id*="tagLinks"], div[id*="tagChangeRow"] {
+	display: none !important;
+}
+
+td[class^="td"]:nth-of-type(6) {
+	width: 0;
+}
+
+span[id*="tagRow"] {
+	background-color: rgba( 0, 0, 0, 0.7) !important;
+	border-radius: 0px 20px 20px 0px;
+	display: block !important;
+	line-height:15px !important;
+	padding: 8px 8px 8px ;
+	position: fixed;
+	left: 980px;
+	text-shadow: 0 0 0 #000000 !important;
+	visibility: hidden;
+	width: 199px;
+	bottom: 20px !important;
+	transition: all 0s ease 0s;
+	height:282px;
+}
+
+span[id*="tagRow"]:before {
+	content:"Tags: ";
+	color: #000000;
+}
+
+tr:hover span[id*="tagRow"] {
+	color: white !important;
+	visibility: visible;
+}
+
+.hide {
+	background-color: #f5a66d;
+	background-position: 50% 50% !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	border-left: 3px solid #bb0000;
+	border-bottom: 3px solid #bb0000;
+	border-right: 3px solid #bb0000;
+	border-radius: 0px 0px 25px 25px;
+	box-shadow: 0px 0px 15px #eaa900;
+	display: block !important;
+	height: 225px;
+	padding: 39px 22px 9px 10px;
+	position: fixed;
+	top: -300px;
+	left: 890px;
+	width: 165px;
+	transition: all 0.4s ease 0s;
+}
+
+:hover + .hide {
+	background-color: #f5a66d;
+	background-position: 50% 50% !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	border-left: 3px solid #bb0000;
+	border-bottom: 3px solid #bb0000;
+	border-right: 3px solid #bb0000;
+	border-radius: 0px 0px 25px 25px;
+	box-shadow: 0px 0px 15px #eaa900;
+	display: block !important;
+	height: 225px;
+	padding: 39px 22px 9px 10px;
+	position: fixed;
+	top: 0px;
+	left: 890px;
+	width: 165px;
+	transition: all 0.4s ease 0s;
+}
+
+
+/*
+HEADERS
+*/
+
+
+[class^="header_"] * {
+	background-repeat: no-repeat no-repeat;
+	font-size: 0;
+	height: 345px;
+	line-height: 24px;
+	padding-bottom: 50px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.header_title {
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-style: italic;
+	height: auto;
+	padding: 0 8px 0 0;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.header_cw {
+	background-color: transparent;
+	background-image: url(https://imgur.com/mGE3NDF.png);
+	background-size: 90% 90%;
+	background-position: 20% -2px;
+	background-repeat: no-repeat no-repeat;
+	height: 350px;
+	margin-bottom: -45px;
+}
+
+.header_completed {
+	background-color: transparent;
+	background-image: url(https://imgur.com/WgqUoLr.png);
+	background-size: 90% 90%;
+	background-position: 50% 2px;
+	background-repeat: no-repeat no-repeat;
+	margin-bottom: -44px;
+	z-index: 0;
+}
+
+.header_onhold {
+	background-color: transparent;
+	background-image: url(https://imgur.com/ITCioCc.png);
+	background-size: 90% 90%;
+	background-position: 50% 2px;
+	background-repeat: no-repeat no-repeat;
+	height: 200px;
+	margin-bottom: -44px;
+}
+
+.header_dropped {
+	background-color: transparent;
+	background-image: url(https://imgur.com/Dku1UFG.png);
+	background-size: 90% 90%;
+	background-position: 50% 2px;
+	background-repeat: no-repeat no-repeat;
+	height: 200px;
+	margin-bottom: -44px;
+}
+
+.header_ptw {
+	background-color: transparent;
+	background-image: url(https://imgur.com/RdKpMev.png);
+	background-size: 90% 90%;
+	background-position: 50% 2px;
+	background-repeat: no-repeat no-repeat;
+	height: 200px;
+	margin-bottom: -44px;
+}
+
+
+/*
+CATEGORY LINKS
+*/
+
+
+.status_selected:hover {
+	opacity: 1 !important;
+	transition: all 0.4s ease 0s;
+	display:block;
+	background-image:url(https://imgur.com/y6qNP2Q.png) !important;
+	background-position: 50% 0%;
+}
+
+.status_not_selected:hover {
+	opacity: 1 !important;
+	transition: all 0.4s ease 0s;
+	left : 0px !important;
+	display:block;
+	background-image:url(https://imgur.com/y6qNP2Q.png) !important;
+	background-position: 50% 0%;
+}
+
+.status_selected:hover a, .status_not_selected:hover a {
+	color: #eea900 !important;
+  	text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 0px 0px 5px #ff0000;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 21px;
+	height: 0px;
+	text-decoration: none;
+	width: 120px !important;
+  	padding-top: 80px !important;
+	padding-left: 80px;
+	text-align: center;
+	vertical-align: bottom;
+	transition:all 0.4s ease 0s;
+	display:block;
+}
+
+.status_not_selected a {
+	color:transparent;
+	display:block;
+}
+
+.status_not_selected a, .status_selected a {
+	height: 120px;
+	width: 120px;
+	transition: all 0.4s ease 0s;
+}
+
+.status_selected a {
+	display: block;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 21px;
+	height: 0px;
+	width: 120px;
+  	text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+	padding-top: 80px;
+	padding-left: 80px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.status_selected {
+	display: block;
+	opacity: 1;
+	transition: all 0.4s ease 0s;
+	left : 0px !important;
+	background-image:url(https://imgur.com/7scy6sP.png) !important;
+	background-position: 50% 0%;
+}
+
+.status_not_selected {
+	display: block;
+	opacity: 1;
+	transition: all 0.4s ease 0s;
+}
+
+#list_surround .status_selected, #list_surround .status_not_selected {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(https://imgur.com/7scy6sP.png);
+	background-size: 60%;
+	background-position: 100% 0% !important;
+	background-repeat: no-repeat no-repeat ;
+	display: block;
+	height: 120px;
+	left: -70px;
+	padding: 0px;
+	position: fixed;
+	top: 10px;
+	width: 200px;
+	z-index:500;
+}
+
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: 100% 20% !important;
+	top: 130px;
+	left: -70px;
+}
+
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: 100% 40% !important;
+	top: 250px;
+	left: -70px;
+}
+
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: 100% 60% !important;
+	top: 370px;
+	left: -70px;
+}
+
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: 100% 80% !important;
+	display: inline;
+	top: 490px;
+ 	left: -70px;
+
+}
+
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-position: 100% 100% !important;
+	background-repeat: no-repeat no-repeat;
+	display: inline;
+	top: 610px;
+	left: -70px;
+	width: 200px;
+}
+
+
+/*
+COPYRIGHT
+*/
+
+
+#copyright:after {
+	content: "Design by SylakentH, thanks to DeviantArt! Monogatari Theme Modifications by Excalibur_1702";
+	font-size: 14px;
+	line-height: 16px;
+  	color:#ffffff;
+}
+
+#copyright {
+	background-color: #bb0000;
+	border: 0px solid #eaa900;
+	border-radius: 16px 16px 16px 16px;
+	color: #FFFFFF;
+	display: block;
+	margin-top: -12px !important;
+	padding: 2px 14px 4px;
+	position: relative;
+	transition: all 0.4s ease-out 0s;
+}
+
+#copyright a {
+	color: #FFFFFF;
+	font-size: 14px;
+	padding-right: 2px;
+	text-shadow: 1px 1px #f5a66d;
+}
+
+
+/*
+TOP MENU BAR
+*/
+
+
+#mal\_control_strip:before {
+	position: absolute;
+	display: block;
+	content: 'MENU';
+	margin-top: 210px;
+	right: 0px !important;
+	padding: 4px 8px;
+	background-color: #eea900;
+	border-radius: 0 0 0 1em;
+  	border-left: 3px solid #aa0000;
+  	border-bottom: 3px solid #aa0000;
+  	border-top: 0px solid #aa0000;
+  	width: 80px;
+  	text-align:center;
+  	box-shadow: 0px 0px 15px #eaa900;
+}
+
+#mal\_control_strip {
+	position: fixed !important;
+	display: block !important;
+	margin-top: -210px !important;
+	height: 210px !important;
+	width: 160px !important;
+	left: auto !important;
+	right: 0px;
+	background: url(https://imgur.com/Efk7qaB.png) no-repeat center top #eea900 !important;
+	background-size: 100% auto !important;
+	border-radius: 0 0 0 1em;
+	transition: all .5s ease-out;
+	-webkit-transition: all .5s ease-out;
+	z-index: 10;
+	border-left: 3px solid #aa0000;
+	border-bottom: 3px solid #aa0000;
+	box-shadow: 0px 0px 15px #eaa900;
+}
+
+#mal\_control_strip:after {
+	position: fixed;
+	display: block;
+	content: '';
+	left: 0;
+	top: -300px;
+	width: 100%;
+	height: 300px;
+	box-shadow: 0 0 20px #f5a66d;
+}
+
+#mal\_control_strip a {
+	text-decoration: none !important;
+}
+
+#mal\_control_strip a:hover {
+color: #ff0000 !important;
+transition: all 0.4s ease 0s;
+ }
+
+#mal\_control_strip:hover {
+	margin-top: 0 !important;
+}
+
+#mal\_control_strip, #mal\_control_strip a, #mal\_control_strip td, #mal\_control_strip td div, #mal\_control_strip a {
+	font-family: 'Kozuka Mincho Pro' !important;
+	color: #ffffff !important;
+	text-shadow: 0px 0px 3px #ffffff;
+	font-weight: 700;
+	font-size: 16px !important;
+	text-align: right;
+	transition: all 0.4s ease 0s;
+}
+
+#mal\_control_strip td {
+	display: block !important;
+	width: 120px !important;
+}
+
+#mal\_control_strip img, #mal\_cs_powered, #mal\_cs_powered img, #mal\_cs_pic img, #mal\_cs_otherlinks strong, #search,
+#mal\_cs_otherlinks div a[href*="sharedanime"], #mal\_cs_otherlinks div span[title*="Compatibility Score"] {
+	display: none !important;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+	border-right: none !important;
+}
+
+#mal\_cs_otherlinks div:nth-child(2) {
+	color: transparent !important;
+}
+
+
+/*
+USERNAME, LOGOUT
+*/
+
+
+#mal\_cs_listinfo div {
+	margin: 0 !important;
+}
+
+#mal\_cs_listinfo div a {
+	position: relative !important;
+	display: block !important;
+	top: 83px !important;
+	line-height: 18px !important;
+}
+
+
+/*
+ADD TO LIST, HOME, ANIME LIST, MANGA LIST
+*/
+
+
+#mal\_cs_links div {
+margin: 0 !important;
+}
+
+#mal\_cs_links div a {
+	position: relative !important;
+	display: inline-block !important;
+	top: 83px !important;
+	line-height: 18px !important;
+}
+
+#mal\_cs_links div a[href*="addtolist"] {
+	font-weight: 600 !important;
+}
+
+
+/*
+HISTORY, FORUM, EXPORT
+*/
+
+
+#mal\_cs_otherlinks div a[href*="history"], #mal\_cs_otherlinks div a[href*="forum"], #mal\_cs_otherlinks div a[href*="export"], #mal\_cs_otherlinks div a[href*="mangalist"]  {
+	display: none !important;
+}
+
+
+/*
+LOG IN, CREATE LIST, LEARN MORE
+*/
+
+
+#mal\_cs_otherlinks div {
+	margin: 0 !important;
+}
+
+#mal\_cs_otherlinks div a {
+	position: relative !important;
+	display: block !important;
+	top: 28px !important;
+	line-height: 18px !important;
+}
+
+#mal\_cs_otherlinks div a[href*="login"] {
+	font-weight: 600 !important;
+}
